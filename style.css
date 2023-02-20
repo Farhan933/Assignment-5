@@ -1,0 +1,57 @@
+/*                      ..header part..                      */
+/* common or utilities */
+.overall-body-color{
+    background-color: rgb(39, 39, 39);
+}
+.intro{
+    font-family: 'Gloock', serif;
+    color: rgb(209, 209, 209);
+    letter-spacing: 9px;
+
+}
+
+.intro-paragraph{
+    color: rgba(187, 187, 187, 0.747);
+}
+
+/* header section */
+.header-img{
+    height: 250px;
+    width: 900px;
+}
+.same-heigt{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+/*                   ..header part ends..                   */
+
+/*                    ..main section..                      */
+/* Card section */
+.card-body{
+    background-color: rgb(66, 66, 66);
+}
+.card-title{
+    font-weight: 750;
+    font-size: 20px;
+    color: white;
+}
+.card-details{
+    font-size: 11px;
+    font-weight: 1000;
+    color: rgba(255, 255, 255, 0.521);
+}
+.player-button{
+    border: none;
+    background-color: rgb(99, 99, 99);
+    border-radius: 5px;
+    color: white; 
+}
+.player-button:hover{
+    background-color: rgb(44, 44, 44);
+}
+.selected-name{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
