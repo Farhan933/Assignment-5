@@ -1,4 +1,3 @@
-/*                      ..header part..                      */
 /* common or utilities */
 .overall-body-color{
     background-color: rgb(39, 39, 39);
@@ -24,7 +23,6 @@
     height: 15vw;
     object-fit: cover;
 }
-/*                   ..header part ends..                   */
 
 /*                    ..main section..                      */
 /* Card section */
@@ -54,4 +52,43 @@
     color: white;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* Selected-5 */
+.list-item{
+    color: white;
+    font-size: 17px;
+}
+
+/* Budget Card */
+.budget-title{
+    color: rgb(201, 201, 201);
+}
+.all-input-field{
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 99, 99);
+}
+.all-button-style{
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(99, 99, 99);
+}
+.all-button-style:hover{
+    background-color: rgb(44, 44, 44);
+}
+
+/*                  ...footer section...                     */
+.text-orientation{
+    color: rgb(141, 141, 141);
+    
+}
+.text-lil-space{
+    letter-spacing: 3px;
+    color: rgb(105, 105, 105);
 }
