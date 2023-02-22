@@ -75,6 +75,12 @@ document.getElementById('Sarah Taylor').addEventListener('click', function(){
 // Calculate Player Expenses
 document.getElementById('selected-player-cost').addEventListener('click', function(){
     let getTheInputValue = getAllInputField('selected-input-field');
+
+// if you provide anything without number it will alert you
+    if(isNaN(getTheInputValue)){
+        alert('please, provide a valid number')
+        return;
+    }
     let Expenses           = getTheInputValue * 5;
     let findTheExpense     = getAllTheNameById('expenses');
     let setTheExpenseValue = setTheValueById('expenses', Expenses);
@@ -86,8 +92,17 @@ document.getElementById('calculate-total').addEventListener('click', function(){
     let Expenses           = getTheInputValue * 5;
 
     let findTheManagerCost =  getAllInputField('manager-cost');
+    // if you provide anything without number it will alert you
+    if(isNaN(findTheManagerCost)){
+        alert('please, provide a valid number')
+        return;
+    }
     let findTheCoachCost   =  getAllInputField('coach-cost');
-
+    // if you provide anything without number it will alert you
+    if(isNaN(findTheCoachCost)){
+        alert('please, provide a valid number')
+        return;
+    }
     ManagerAndCoachTotal   = findTheManagerCost + findTheCoachCost;
     TotalCost              = Expenses + ManagerAndCoachTotal ;
 
